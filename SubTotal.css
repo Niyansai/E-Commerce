@@ -1,0 +1,95 @@
+  #subtotal {
+    
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    transition: 450ms;
+    align-items: center;
+    
+  }
+  
+#subtotal:hover { 
+
+transform: scale(1.06);
+background-color: rgba(117, 253, 147, 0.3);
+
+
+}
+
+
+
+.text_title {
+  font-size: 18px;
+}
+
+  .subtotal__gift {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .subtotal__gift > input {
+    margin-right: 5px;
+    
+  }
+  
+  .subtotals{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      transform: scale(0.8) perspective(102px) rotateY(-6deg) !important;
+      filter:blur(0) brightness(1) !important;
+      z-index: 4 !important;
+      width: 300px;
+      height: 60px;
+      filter:blur(2px) brightness(1.5);
+      border: none;
+      color: white;
+      font-size: medium;
+      font-weight: bolder;
+      padding: 30px;
+      transition: 450ms;
+      outline: tomato;
+      background-image: url("https://images.pexels.com/photos/235731/pexels-photo-235731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      box-shadow: inset;
+      
+  }
+
+  @media(max-width:340px) { 
+  
+    .subtotals{ 
+
+width: 200px;
+
+    }
+
+  }
+
+  @media(max-width:576px) {
+
+    .subtotals{
+
+      width: 100%!important;
+      
+      }
+
+  }
+
+  @media(max-width:992px) { 
+.total_price {
+
+text-align: center;
+margin-right: 40px;
+
+
+}
+
+.subtotal__gift {
+margin-left: 40px;
+}
+
+.subtotals{
+
+  width: 150px;
+  
+  }
+}

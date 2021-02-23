@@ -1,0 +1,36 @@
+#first_carousel {
+  width: 100%!important;
+  max-height: 450px!important;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  
+}
+
+
+#second_carousel {
+
+  max-width: 100%!important;
+  max-height: 450px!important;
+  
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6));
+ 
+}
+
+.home_complete {
+  background-image: url("https://images.pexels.com/photos/6337/light-coffee-pen-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+}
+
+@media(max-width:576px) {
+
+  #first_carousel { 
+
+    margin-bottom: 0;
+    
+  }
+
+
+
+
+
+}

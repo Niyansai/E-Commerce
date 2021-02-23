@@ -1,0 +1,55 @@
+.complete_order {
+
+    background-image:url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      padding: 20px;
+}
+.complete_order:hover {
+   
+    transform: none;
+}
+
+.order_textdate {
+    color:black;
+    font-weight:bold;
+}
+
+.order_id {
+    color: black!important;
+    font-weight:bold;
+}
+.order_idmain {
+    color: black;
+    font-weight:bold;
+}
+
+.order_products {
+    
+}
+.order_three {
+    text-align: right;
+    color: black;
+    
+}
+
+
+@media(max-width:676px) {
+  
+    .complete_order {
+        overflow: hidden;
+        background-image: url("https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        box-shadow: 6px 6px 13px 10px rgba(0, 0, 0, 0.3);
+    }
+    .order_idmain {
+        overflow-wrap: break-word;
+    }
+    
+
+
+}
+
+@media(max-width:576px) { 
+
+
+
+    
+}

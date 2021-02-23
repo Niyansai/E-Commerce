@@ -1,0 +1,170 @@
+.navbar_all {
+  height: 70px;
+  background-image: url("https://images.pexels.com/photos/3721532/pexels-photo-3721532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  position: sticky;
+}
+
+.image_logo {
+  width: 100px;
+  transition: 450ms;
+}
+
+.image_logo:hover { 
+
+transform: scale(1.04);
+
+}
+
+.search_bar {
+ 
+  height: 16px!important;
+  padding: 14px!important;
+  border-color:#98FB98;
+  width: 800px!important;
+  border-radius: 2px!important;
+}
+
+.search_icon {
+  background-image: linear-gradient(to bottom, #33ccff 0%, #3366ff 101%);
+  padding: 7px;
+  margin-left: -7px;
+  border-radius: 2px!important;
+  color: whitesmoke;
+}
+
+
+#nav_datahead {
+  color: white!important;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.desktopheader__option {
+  text-decoration: none;
+  color: white;
+}
+
+.desktopheader__option:hover {
+  color: white;
+}
+
+
+.desktopheader__optionLineOne {
+  font-size: 10px;
+  display: block;
+  margin-top: 4px;
+}
+
+.desktopheader__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.desktopheader__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  transition: 450ms;
+}
+
+.desktopheader__optionBasket:hover {
+  transform: scale(1.1)
+}
+
+.desktopheader__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text-placeholder {
+  font-size: small!important;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.menu-bar {
+  
+  color: white;
+  
+}
+
+.up {
+
+margin-top: 20px;
+
+}
+
+.mobile_scroll {
+  display: none;
+}
+
+
+/* ******************************MediaQueries******************************** */
+
+@media(max-width:576px) {
+
+  .scroll_bigscreen {
+    display: none;
+  }
+  .mobile_scroll {
+    display: block;
+    margin-bottom: -20px;
+    margin-right: -150px;
+    box-sizing: content-box;
+  }
+  .search_bar {
+    width: 140px!important;
+ 
+  }
+  
+  .search_icon {
+    display: none;
+  }
+  
+ .collapse_menuitems {
+  background-color: black;
+  padding-left: 10px;
+  background-image: url("https://images.pexels.com/photos/3721532/pexels-photo-3721532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+margin-left: 15rem; 
+}
+ 
+  }
+ 
+  @media(max-width:992px) and (min-width:600px) {
+
+    .scroll_bigscreen {
+      display: none;
+    }
+    .mobile_scroll {
+      display: block;
+      margin-bottom: -20px;
+      margin-right: -150px;
+      box-sizing: content-box;
+    }
+    .search_bar {
+      width: 190px!important;
+   
+    }
+    
+    .search_icon {
+      display: none;
+    }
+    
+   .collapse_menuitems {
+  
+    background-color: black;
+    padding-left: 10px;
+    background-image: url("https://images.pexels.com/photos/3721532/pexels-photo-3721532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  margin-left: 35rem; 
+  
+  
+  
+  }
+ 
+ 
+  }
+
+
+

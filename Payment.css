@@ -1,0 +1,81 @@
+.complete_container {
+    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+   padding: 20px;
+   overflow: hidden;
+   
+}
+
+
+.head_col {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    
+    
+    
+}
+.head_coltext {
+text-decoration: none;
+}
+
+.address_text {
+
+line-height: 5px;
+font-weight: 500;
+
+
+}
+
+.buynow_btn {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      transform: scale(0.8) perspective(102px) rotateY(-6deg) !important;
+      filter:blur(0) brightness(1) !important;
+      z-index: 4 !important;
+      width: 200px;
+      height: 70px;
+      filter:blur(2px) brightness(1.5);
+      border: none;
+      color: white;
+      font-size: medium;
+      font-weight: bolder;
+      padding: 30px;
+      transition: 450ms;
+      outline: tomato;
+      background-image: url("https://images.pexels.com/photos/235731/pexels-photo-235731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      box-shadow: inset;
+      margin-bottom: 20px;
+      cursor: pointer;
+
+}
+.container_price {
+
+    padding: 20px;
+}
+
+
+/* *********************Medi Queries******************* */
+
+@media(max-width: 1336px) { 
+ 
+    
+.review_text > h6 {
+    text-align:
+}
+
+}
+
+
+@media(max-width: 385px) {
+
+    .address_text { 
+
+       line-height: 15px;
+    }
+
+
+
+
+}

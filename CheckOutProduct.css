@@ -1,0 +1,119 @@
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 3px 6px 13px -6px rgba(0, 0, 0, 0.6);
+    padding-bottom: 20px;
+    transition: 450ms;
+    padding-right: 7px;
+    background-color: white;
+  
+}
+
+.checkoutProduct:hover {
+transform: scale(1.03) !important;
+border: none;
+background-color:rgba(117, 253, 147, 0.3);
+}
+
+.checkoutProduct_info {
+    padding-left: 20px
+}
+
+.checkoutProduct_info > button {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      transform: scale(0.8) perspective(102px) rotateY(-6deg) !important;
+      filter:blur(0) brightness(1) !important;
+      z-index: 4 !important;
+      width: 200px;
+      height: 70px;
+      filter:blur(2px) brightness(1.5);
+      border: none;
+      color: white;
+      font-size: medium;
+      font-weight: bolder;
+      padding: 30px;
+      transition: 450ms;
+      outline: tomato;
+      background-image: url("https://images.pexels.com/photos/235731/pexels-photo-235731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      box-shadow: inset;
+  }
+
+.checkoutProduct_info > button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.checkoutProduct_image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+
+.rating_star {
+    display: flex;
+    color: rgba(255, 198, 13, 0.924);
+  }
+
+.checkoutProduct_title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+
+/* *********************MediaQueries***************************** */
+
+
+@media(max-width:576px) { 
+
+.checkoutProduct {
+  
+overflow: hidden;
+
+}
+.checkoutProduct_info > button {
+
+  width: 100%;
+}
+
+
+}
+
+@media(max-width:383px) { 
+
+
+  .checkoutProduct_info > button {
+
+    width: 90%;
+    
+  }
+  
+  .checkoutProduct {
+  
+    overflow: hidden;
+    
+  }
+  .checkoutProduct_title {
+font-size: 12px;
+    
+}
+
+.checkoutProduct_image {
+  width: 120px;
+  height: 120px;
+}
+  
+}
+@media(max-width:340px) {
+  .checkoutProduct_info > button {
+
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+}
+

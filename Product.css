@@ -1,0 +1,86 @@
+
+#complete_card {
+  box-shadow: 3px 6px 13px -6px rgba(0, 0, 0, 0.3);
+transition: 450ms;
+/* background-color:rgba(117, 253, 147, 0.3); */
+background-color: #fff;
+align-items: center;
+font-family: sans-serif;;
+}
+
+#complete_card:hover { 
+transform: scale(1.04);
+cursor: pointer;
+background-color:rgba(117, 253, 147, 0.3);
+}
+  
+.card_theory {
+
+  }
+  
+.product_img {
+    
+    max-height: 260px;
+    max-width: 150px;  
+  }
+
+.product:hover {  
+  transform: scale(1.02) !important;
+  background-color: rgba(117, 253, 147, 0.3);
+      }
+
+  .rating_star {
+    display: flex;
+    color: rgba(255, 198, 13, 0.924);
+  }
+
+.add_button {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+      transform: scale(0.8) perspective(102px) rotateY(-6deg) !important;
+      filter:blur(0) brightness(1) !important;
+      z-index: 4 !important;
+      width: 200px;
+      height: 70px;
+      filter:blur(2px) brightness(1.5);
+      border: none;
+      color: white;
+      font-size: medium;
+      font-weight: bolder;
+      padding: 30px;
+      transition: 450ms;
+      outline: tomato;
+      background-image: url("https://images.pexels.com/photos/235731/pexels-photo-235731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      box-shadow: inset;
+  }
+
+  .product > button:hover {
+
+transform: scale(1.1);
+
+cursor: pointer;
+
+  }
+  
+  .product__price {
+    margin-top: 5px;
+  }
+  
+  .product__info {
+    height: 140px;
+    
+  }
+
+  .product-description {
+    margin-top: -20px;
+  }
+  
+  
+  @media(max-width:576px) {
+  
+   
+
+
+
+}

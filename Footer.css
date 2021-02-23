@@ -1,0 +1,130 @@
+    #complete_footer {
+
+    background-image: url("https://images.pexels.com/photos/6337/light-coffee-pen-working.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+    padding-bottom: 20px;
+
+    }
+
+    #footer-image {
+        transition: 450ms;
+    }
+    #footer-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    }
+
+    .list_one > ul > li {
+
+        list-style: none;
+    }
+
+    .list_two > ul > li {
+        list-style: none;
+    }
+
+    .complete_row {
+
+        text-decoration: none;
+        font-size: small;
+
+    }
+
+    .social-icons {
+        justify-content: space-evenly;
+        
+    }
+
+    .yticon {
+    
+        transition: 450ms;
+
+    }
+    .yticon:hover {
+        transform: scale(1.1);
+    }
+    .fbicon {
+        transition: 450ms;
+    }
+    .fbicon:hover {
+        transform: scale(1.1);
+    }
+    .pticon {
+        transition: 450ms;
+
+    }
+    .pticon:hover {
+        transform: scale(1.1);
+    }
+
+    .disclaimer {
+
+        font-size: 10px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+
+    /* *****************Media Queries************************ */
+
+    @media(max-width:576px) {
+        #footer-image {
+            
+            margin-top: 60px;
+            margin-left: -60px;
+            transition: 450ms;
+        }
+        #footer-image:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        }
+        
+    .social-icons {
+
+        margin-left: 150px;
+        
+    }
+
+    .yticon {
+    
+        margin-right: 20px;
+
+    }
+
+    .fbicon {
+        margin-right: 20px;
+    }
+
+    .pticon {
+        margin-right: 20px;
+
+    }
+
+    .list_one > ul > li { 
+
+        white-space:nowrap; 
+        margin-top: 20px;
+        margin-left: 20px;
+
+        
+
+    }
+
+    .list_two > ul > li {
+    
+        white-space:nowrap; 
+        margin-top: 20px;
+        margin-left: 40px
+    }
+
+
+    }
+
+    @media(max-width:340px) { 
+
+        #complete_footer { 
+            overflow: hidden;
+        }
+
+    }
